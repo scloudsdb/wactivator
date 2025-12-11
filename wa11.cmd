@@ -71,7 +71,7 @@ cscript //nologo slmgr.vbs /ato | find /i "successfully" && (
     echo =====================================================================================
     echo.
     echo.
-    echo Support us with donations via saweria.co/bagitechno so this method can continue to be used.
+    echo Support us with donations via saweria.co/R3verseNinja so this method can continue to be used.
     echo.
     if errorlevel 2 exit
 ) || (
@@ -118,3 +118,4 @@ goto halt
 
 :halt
 cd %~dp0 & del %0 >nul & pause >nul
+
